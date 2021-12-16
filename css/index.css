@@ -1,5 +1,6 @@
 
 .body {
+    margin-top: 10px;
     position: relative;
 }
 
@@ -8,7 +9,7 @@
     float: left;
     height: 480px;
     width: 190px;
-    background-color: pink;
+    background-color: white;
 }
 
 .cate_menu {
@@ -35,4 +36,19 @@
     font-size: 12px;
 }
 
-/*中间轮播图*/
+/*中间内容*/
+.column_mid {
+    float: left;
+    margin-left: 10px;
+    height: 480px;
+    width: 740px;
+    background-color: pink;
+}
+
+/*右侧内容*/
+.column_right {
+    float: right;
+    height: 480px;
+    width: 250px;
+    background-color: skyblue;
+}
