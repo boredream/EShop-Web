@@ -1,0 +1,46 @@
+/*声明字体图标*/
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.7.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.7.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.7.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.7.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    outline-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd {
+    /*字体设置*/
+    font-size: 14px;
+    font-family: FontAwesome,Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Noto Sans CJK SC,WenQuanYi Micro Hei,Arial,sans-serif;
+    color: #333;
+    /* 去掉列表的原点 */
+    list-style: none;
+    /* 默认鼠标 */
+    cursor: default;
+}
+
+/*行内元素*/
+a, a:active, a:visited {
+    /*下划线和颜色*/
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: brown;
+}
+
+.style_red {
+    color: brown;
+}

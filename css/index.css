@@ -1,0 +1,38 @@
+
+.body {
+    position: relative;
+}
+
+/*菜单*/
+.column_left {
+    float: left;
+    height: 480px;
+    width: 190px;
+    background-color: pink;
+}
+
+.cate_menu {
+    padding: 10px 0;
+}
+
+.cate_menu_item {
+    overflow: hidden;
+    padding-left: 18px;
+    height: 25px;
+    line-height: 25px;
+    color: #666;
+}
+
+.cate_menu_item:hover {
+    background-color: #dfdfdf;
+}
+
+.cate_menu_lk {
+
+}
+
+.cate_menu_line {
+    font-size: 12px;
+}
+
+/*中间轮播图*/

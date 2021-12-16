@@ -1,0 +1,150 @@
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*快捷导航*/
+.shortcut {
+    height: 32px;
+    line-height: 32px;
+    background: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 10px 16px 0;
+}
+
+.dropdown::after {
+    content: "\f107";
+    margin-left: 6px;
+}
+
+/*头部模块*/
+.header {
+    position: relative;
+    height: 105px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    position: absolute;
+    top: 22px;
+    width: 134px;
+    height: 60px;
+}
+
+.logo a {
+    display: block;
+    width: 134px;
+    height: 60px;
+    font-size: 0;
+    background-color: gray;
+}
+
+.search {
+    position: absolute;
+    width: 538px;
+    top: 25px;
+    height: 36px;
+    left: 346px;
+    border: 2px solid #b1191a;
+
+}
+
+.search input {
+    float: left;
+    width: 454px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: right;
+    width: 80px;
+    height: 32px;
+    font-size: 16px;
+    color: white;
+    background-color: #b1191a;
+}
+
+.hotwords {
+    position: absolute;
+    top: 64px;
+    left: 346px;
+}
+
+.hotwords a {
+    margin-inline: 10px;
+}
+
+.shopcar {
+    position: absolute;
+    width: 140px;
+    height: 35px;
+    top: 25px;
+    right: 60px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;
+}
+
+.shopcar::before {
+    content: "\f07a";
+    margin-right: 10px;
+    color: brown;
+}
+
+.ci_count {
+    position: absolute;
+    top: 1px;
+    left: 29px;
+    right: auto;
+    display: inline-block;
+    padding: 1px 3px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #e1251b;
+    border-radius: 7px;
+    min-width: 16px;
+    text-align: center;
+    font-style: normal;
+}
+
+/*底部模块*/
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    float: bottom;
+    background-color: #f5f5f5;
+}
+
+.footer .copyright {
+    font-size: 12px;
+    color: #999;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
